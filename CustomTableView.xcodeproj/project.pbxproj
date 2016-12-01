@@ -14,6 +14,10 @@
 		7527E12B1DEED28D0074C607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7527E1291DEED28D0074C607 /* LaunchScreen.storyboard */; };
 		7527E1361DEED28E0074C607 /* CustomTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527E1351DEED28E0074C607 /* CustomTableViewTests.swift */; };
 		7527E1411DEED28E0074C607 /* CustomTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527E1401DEED28E0074C607 /* CustomTableViewUITests.swift */; };
+		75FD828E1DEF700A00300805 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD828C1DEF700A00300805 /* TableViewCell1.swift */; };
+		75FD828F1DEF700A00300805 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75FD828D1DEF700A00300805 /* TableViewCell1.xib */; };
+		75FD82921DEF701900300805 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD82901DEF701800300805 /* TableViewCell2.swift */; };
+		75FD82931DEF701900300805 /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75FD82911DEF701800300805 /* TableViewCell2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		7527E13C1DEED28E0074C607 /* CustomTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7527E1401DEED28E0074C607 /* CustomTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewUITests.swift; sourceTree = "<group>"; };
 		7527E1421DEED28E0074C607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FD828C1DEF700A00300805 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		75FD828D1DEF700A00300805 /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		75FD82901DEF701800300805 /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		75FD82911DEF701800300805 /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				7527E1271DEED28D0074C607 /* Assets.xcassets */,
 				7527E1291DEED28D0074C607 /* LaunchScreen.storyboard */,
 				7527E12C1DEED28D0074C607 /* Info.plist */,
+				75FD828C1DEF700A00300805 /* TableViewCell1.swift */,
+				75FD828D1DEF700A00300805 /* TableViewCell1.xib */,
+				75FD82901DEF701800300805 /* TableViewCell2.swift */,
+				75FD82911DEF701800300805 /* TableViewCell2.xib */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -232,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75FD82931DEF701900300805 /* TableViewCell2.xib in Resources */,
 				7527E12B1DEED28D0074C607 /* LaunchScreen.storyboard in Resources */,
 				7527E1281DEED28D0074C607 /* Assets.xcassets in Resources */,
 				7527E1261DEED28D0074C607 /* Main.storyboard in Resources */,
+				75FD828F1DEF700A00300805 /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75FD82921DEF701900300805 /* TableViewCell2.swift in Sources */,
+				75FD828E1DEF700A00300805 /* TableViewCell1.swift in Sources */,
 				7527E1231DEED28D0074C607 /* ViewController.swift in Sources */,
 				7527E1211DEED28D0074C607 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +521,7 @@
 				7527E1471DEED28E0074C607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7527E1481DEED28E0074C607 /* Build configuration list for PBXNativeTarget "CustomTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				7527E14A1DEED28E0074C607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7527E14B1DEED28E0074C607 /* Build configuration list for PBXNativeTarget "CustomTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				7527E14D1DEED28E0074C607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
